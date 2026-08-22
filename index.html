@@ -539,7 +539,7 @@ body{font-family:'DM Sans',sans-serif;background:#120508;color:#fdf2e9;overflow-
 
     <div class="reveal-child rd4" style="margin:28px 0;">
       <div style="font-family:'Playfair Display',serif;font-size:clamp(18px,3vw,28px);color:var(--cream);letter-spacing:3px;">5 / 9 / 2026</div>
-      <div style="font-size:clamp(13px,2.5vw,15px);color:var(--gold);margin-top:6px;letter-spacing:2px;">Seven o'clock in the evening · Alexwest Villa</div>
+      <div style="font-size:clamp(13px,2.5vw,15px);color:var(--gold);margin-top:6px;letter-spacing:2px;">Seven o'clock in the evening · Al Diyar Villa</div>
     </div>
 
     <div class="reveal-child rd4" style="animation:shimmer 3s ease-in-out infinite;color:var(--gold);font-size:22px;letter-spacing:10px;">🥂 🔥 💋</div>
@@ -574,23 +574,23 @@ body{font-family:'DM Sans',sans-serif;background:#120508;color:#fdf2e9;overflow-
 
   <!-- ── VENUE ── -->
   <section id="venue-section" class="reveal-section" style="position:relative;min-height:500px;overflow:hidden;display:flex;align-items:center;justify-content:center;">
-    <div id="venue-bg" style="background-image:url('alexwest.jpeg')"></div>
+    <div id="venue-bg" style="background-image:url('venue.jpg.jpg')"></div>
     <script>
       (function(){
         var b = document.getElementById('venue-bg');
         if(!b) return;
         var img = new Image();
-        img.onload = function() { b.style.backgroundImage = 'url("alexwest.jpeg")'; };
+        img.onload = function() { b.style.backgroundImage = 'url("venue.jpg.jpg")'; };
         img.onerror = function() {
           var imgJpg = new Image();
-          imgJpg.onload = function() { b.style.backgroundImage = 'url("alexwest.jpg")'; };
+          imgJpg.onload = function() { b.style.backgroundImage = 'url("venue.jpg.jpg")'; };
           imgJpg.onerror = function() {
             b.style.backgroundImage = 'none';
             b.style.background = 'linear-gradient(160deg,#4a050d,#1e050a,#4a050d)';
           };
-          imgJpg.src = 'alexwest.jpg';
+          imgJpg.src = 'venue.jpg.jpg';
         };
-        img.src = 'alexwest.jpeg';
+        img.src = 'venue.jpg.jpg';
       })();
     </script>
     <div id="venue-overlay"></div>
@@ -884,7 +884,7 @@ function saveDate(e) {
     'DTSTART:20260905T190000',
     'DTEND:20260906T020000',
     'SUMMARY:Jala\'s Henna Party',
-    'LOCATION:Alexwest Villa, 164 Mohamed Abdelazim',
+    'LOCATION:Al Diyar Villa, 54 A',
     'DESCRIPTION:Celebrate Noreen\'s Henna party with music, dancing, and beautiful memories!',
     'END:VEVENT',
     'END:VCALENDAR'
