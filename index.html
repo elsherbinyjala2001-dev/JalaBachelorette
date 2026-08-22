@@ -885,7 +885,7 @@ function saveDate(e) {
     'DTEND:20260906T020000',
     'SUMMARY:Jala\'s Henna Party',
     'LOCATION:Al Diyar Villa, 54 A',
-    'DESCRIPTION:Celebrate Noreen\'s Henna party with music, dancing, and beautiful memories!',
+    'DESCRIPTION:Celebrate Jala\'s Henna party with music, dancing, and beautiful memories!',
     'END:VEVENT',
     'END:VCALENDAR'
   ].join('\r\n');
@@ -894,7 +894,7 @@ function saveDate(e) {
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.href = url;
-  link.download = 'noreen-henna.ics';
+  link.download = 'jala-henna.ics';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
